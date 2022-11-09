@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Help  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry"
+                android:textSize="20sp"
+                android:text="set name"
+                android:textColor="@color/black"
+                android:background="@color/morandi_pink">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry"
+                android:textSize="20sp"
+                android:text="passed time"
+                android:textColor="@color/black"
+                android:background="@color/morandi_orange">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry"
+                android:textSize="20sp"
+                android:text="target time"
+                android:textColor="@color/black"
+                android:background="@color/morandi_blue">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry"
+                android:textSize="20sp"
+                android:text="delete"
+                android:textColor="@color/black"
+                android:background="@color/morandi_yellow">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.2"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry"
+                android:textSize="20sp"
+                android:text="choose ringtone"
+                android:textColor="@color/black"
+                android:background="@color/morandi_purple">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry"
+                android:textSize="20sp"
+                android:text="restart"
+                android:textColor="@color/black"
+                android:background="@color/morandi_gray">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                tools:ignore="RtlSymmetry"
+                android:textSize="20sp"
+                android:text="start"
+                android:textColor="@color/black"
+                android:background="@color/morandi_green">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--  DBList  -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DataBase List"
+        android:textSize="32sp"
+        android:layout_margin="10dp"
+        android:paddingStart="5dp"
+        tools:ignore="RtlSymmetry">
+
+    </TextView>
+    <ListView
+        android:id="@+id/listView_dbViewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

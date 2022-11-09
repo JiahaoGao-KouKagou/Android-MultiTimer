@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pers.jiahaogao.multitimer">
+
+    <!-- 震动权限 -->
+    <!--    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />-->
+    <!--    <uses-permission android:name="android.permission.VIBRATE" />-->
+    <!-- 后台白名单权限 -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <!-- 前台Service权限 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MultiTimer">
+        <service android:name=".TimerService"
+            android:enabled="true"/>
+
+        <activity
+            android:name=".SetTimerDialogActivity"
+            android:exported="false"
+            android:theme="@style/DialogActivityStyle"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="Help"
+            android:theme="@style/Theme.AppCompat.Light"/>
+
+        <receiver android:name=".TimerBroadcastReceiver" />
+        <provider
+            android:authorities="pers.jiahaogao.multitimer"
+            android:name=".TimerContentProvider"
+            android:exported="true" />
+    </application>
+
+</manifest>

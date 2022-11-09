@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="morandi_red">#965555</color>
+    <color name="morandi_pink">#edd2d9</color>
+    <color name="morandi_purple">#e1ccd1</color>
+    <color name="morandi_orange">#eac6a7</color>
+    <color name="morandi_yellow">#f8edda</color>
+    <color name="morandi_green">#b6c4b2</color>
+    <color name="morandi_blue">#c2ccd7</color>
+    <color name="morandi_gray">#ededeb</color>
+    <color name="morandi_black">#656565</color>
+</resources>

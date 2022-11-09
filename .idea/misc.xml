@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MultiTimer/app/src/main/res/drawable-anydpi/ic_start.xml" value="0.1665" />
+        <entry key="..\:/MultiTimer/app/src/main/res/drawable/btn_radius.xml" value="0.1665" />
+        <entry key="..\:/MultiTimer/app/src/main/res/drawable/dialog.xml" value="0.1665" />
+        <entry key="..\:/MultiTimer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1665" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/activity_dbviewer.xml" value="0.12335359675785208" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/activity_delete_dialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/activity_help.xml" value="0.25364583333333335" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/activity_set_timer.xml" value="0.25364583333333335" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/activity_settimer_dialog.xml" value="0.12335359675785208" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/content_delete_dialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/dialogactivity_settimer.xml" value="0.25364583333333335" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/fragment_first.xml" value="0.25364583333333335" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/fragment_second.xml" value="0.25364583333333335" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/fragment_timer.xml" value="0.25364583333333335" />
+        <entry key="..\:/MultiTimer/app/src/main/res/layout/fragment_timerfragment.xml" value="0.264" />
+        <entry key="..\:/MultiTimer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1665" />
+        <entry key="..\:/MultiTimer/app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.12" />
+        <entry key="..\:/MultiTimer/app/src/main/res/mipmap-anydpi-v26/ic_logo_round.xml" value="0.1235" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

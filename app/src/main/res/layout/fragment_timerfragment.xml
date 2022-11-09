@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TimerFragment"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_name_fragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="name"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:background="@color/morandi_pink">
+
+        </EditText>
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/black"
+            android:background="@color/morandi_orange">
+
+        </Chronometer>
+
+        <Button
+            android:id="@+id/btn_targetTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="00:00"
+            android:textColor="@color/black"
+            android:background="@color/morandi_blue">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_delete"
+            android:background="@color/morandi_yellow">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btn_setRingtone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_ringtone"
+            android:background="@color/morandi_purple">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btn_reset"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/ic_reset"
+            android:background="@color/morandi_gray">
+
+        </ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/btn_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/ic_start"
+            android:background="@color/morandi_green">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+</LinearLayout>
